@@ -181,6 +181,7 @@ const CartPage = () => {
                       }}
                       onInstance={(instance) => setInstance(instance)}
                     />
+                    
 
                     <button
                       className="btn btn-primary"
@@ -201,3 +202,4 @@ const CartPage = () => {
 };
 
 export default CartPage;
+//added payment but paypal account number wrong should change in the braintree
